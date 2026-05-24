@@ -1,0 +1,30 @@
+{
+  "name": "super-off-road",
+  "version": "1.0.0",
+  "description": "An iterative agent-driven development skill inspired by the Ralph Loop. Uses a lap-based analogy for the loop cycle to track progress on PRD.yml tasks.",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tinetti/super-off-road.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tinetti/super-off-road/issues"
+  },
+  "homepage": "https://github.com/tinetti/super-off-road#readme",
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.7",
+    "yaml": "^2.9.0",
+    "zod": "^4.4.3"
+  }
+}
