@@ -1,0 +1,18 @@
+# Ignore Python cache and environments
+__pycache__/
+*.py[cod]
+
+# Ignore node modules (if any)
+node_modules/
+
+# Ignore local config and logs
+*.log
+*.env
+
+# Ignore temporary files
+*.tmp
+*.swp
+
+# Ignore Super Off Road output or progress files
+*.yml
+*.yaml
