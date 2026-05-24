@@ -16,3 +16,6 @@ node_modules/
 # Ignore Super Off Road output or progress files
 *.yml
 *.yaml
+
+# But don't ignore GitHub Actions workflows
+!.github/workflows/
